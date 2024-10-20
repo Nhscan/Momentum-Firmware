@@ -55,6 +55,7 @@
 - Sub-GHz:
   - Show satellites count with an icon (#215 by @m7i-org)
   - Add Bresser 3CH weather station protocol (#217 #245 by @m7i-org)
+  - Add Vauno-EN8822 weather station protocol (#262 by @m7i-org)
   - UL: Add Marantec24 protocol (static 24 bit) with add manually (by @xMasterX)
   - UL: Add GangQi protocol (static 34 bit) with button parsing and add manually (by @xMasterX & @Skorpionm)
   - UL: Add Hollarm protocol (static 42 bit) with button parsing and add manually (by @xMasterX & @Skorpionm)
@@ -70,9 +71,11 @@
   - OFW: H World Hotel Chain Room Key Parser and MFC keys (by @zinongli)
   - OFW: Parser for Tianjin Railway Transit (by @zinongli)
 - Infrared:
-  - Bluray/DVD Universal Remote (#250 by @jaylikesbunda)
+  - Bluray/DVD Universal Remote (#250 #264 by @jaylikesbunda)
   - Option to "Load from Library File" for Universal Remotes (#255 by @zxkmm)
 - Updater: New Yappy themed icon while updating (#253 by @the1anonlypr3 & @Kuronons & @nescap)
+- JS:
+  - New `i2c` module (#259 by @jamisonderek)
 - BadKB:
   - OFW: Add linux/gnome badusb demo files (by @thomasnemer)
   - Add older qFlipper install demos for windows and macos (by @DXVVAY & @grugnoymeme)
@@ -109,6 +112,7 @@
 - NFC:
   - Added 6 new Mifare Classic keys from Bulgaria Hotel (#216 by @z3r0l1nk)
   - NDEF parser supports NTAG I2C Plus 1k and 2k chips too (by @RocketGod-git)
+  - NDEF parser decodes URL-encoded URI characters (#267 by @jaylikesbunda)
   - UL: Add iq aparts hotel key (by @xMasterX)
   - OFW/UL: Rename 'Detect Reader' to 'Extract MFC Keys' (by @bettse & @xMasterX)
   - OFW: Plantain parser improvements (by @assasinfil)
